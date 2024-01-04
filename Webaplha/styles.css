@@ -1,71 +1,92 @@
 body {
-	font: bold 11px/1.5em Verdana;
-	}
+    font: bold 11px/1.5em Verdana;
+	background-color: #cdcaca;
+}
 
 h1 {
-	font-family:Verdana, Arial, Helvetica, sans-serif;
-	font-size:16px;
-	font-weight:bold;
-	margin:0;
-	padding:0;
-	}
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    margin: 0;
+    padding: 0;
+}
 
 hr {
-	border:none;
-	border-top:1px solid #f64141;
-	height:1px;
-	margin-bottom:25px;
-	}
-	
+    border: none;
+    border-top: 1px solid #f7f5f5;
+    height: 1px;
+    margin-bottom: 25px;
+}
+
 #tabs {
-	float:left;
-	width:100%;
-	background:#5e5e5e;
-	font-size:93%;
-	line-height:normal;
-	border-bottom:1px solid #C2BDAE;
-	}
+    float: right;
+    width: 100%;
+    background: #444444;
+    font-size: 93%;
+    line-height: normal;
+    border-bottom: 1px solid #C2BDAE;
+}
 
 #tabs ul {
-	margin:0;
-	padding:10px 10px 0 50px;
-	list-style:none;
-	}
+    margin: 0;
+    padding: 10px 10px 0 50px;
+    list-style: none;
+}
 
 #tabs li {
-	display:inline;
-	margin:0;
-	padding:0;
-	}
+    display: inline;
+    margin: 0;
+    padding: 0;
+}
 
 #tabs a {
-	float:left;
-	background:url("tableft.gif") no-repeat left top;
-	margin:0;
-	padding:0 0 0 4px;
-	text-decoration:none;
-	}
+    float: right;
+    background: url("tableft.gif") no-repeat left top;
+    margin: 0;
+    padding: 0 0 0 4px;
+    text-decoration: none;
+}
 
 #tabs a span {
-	float:left;
-	display:block;
-	background:url("tabright.gif") no-repeat right top;
-	padding:5px 15px 4px 6px;
-	color:#ffffff;
-	}
+    float: right;
+    display: block;
+    background: url("tabright.gif") no-repeat right top;
+    padding: 5px 15px 4px 6px;
+    color: #ffffff;
+}
 
 /* Commented Backslash Hack hides rule from IE5-Mac \*/
-#tabs a span {float:none;}
+#tabs a span {
+    float: none;
+}
 
 /* End IE5-Mac hack */
 #tabs a:hover span {
-	color:#000000;
-	}
+    color: #000000;
+    
+}
 
 #tabs a:hover {
-	background-position:0% -42px;
-	}
+    background-position: 0% -42px;
+}
 
 #tabs a:hover span {
-	background-position:100% -42px;
-	}
+    background-position: 100% -42px;
+}
+
+.Fondasi-text{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    width: 60vh;
+    height: 80vh;
+    padding: 23px;
+    background-color: darkgray;
+    
+}
+
+.image{
+   width: 60vh;
+   height: 40vh;
+   border: 9px solid darkblue;
+   justify-content: center;
+}
+
